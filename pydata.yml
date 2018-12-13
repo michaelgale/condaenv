@@ -1,0 +1,38 @@
+name: pydata
+channels:
+  - dlr-sc
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pandas
+  - scipy
+  - ca-certificates
+  - certifi
+  - freetype
+  - icu
+  - jpeg
+  - libpng
+  - openssl
+  - pyparsing
+  - sip
+  - tbb
+  - pip
+  - readline
+  - setuptools
+  - sqlite
+  - beautifulsoup4
+  - wheel
+  - xz
+  - zlib
+  - freeimageplus
+  - gl2ps
+  - reportlab
+  - requests
+  - urllib3
+  - pillow
+  - pip:
+    - chardet
+    - idna
+    - python-levenshtein
+    - crayons

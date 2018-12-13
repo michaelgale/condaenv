@@ -1,0 +1,39 @@
+name: caddev
+channels:
+  - CadQuery
+  - oce
+  - dlr-sc
+  - pythonocc
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - cadquery-occ
+  - ca-certificates
+  - certifi
+  - freetype
+  - icu
+  - jpeg
+  - libpng
+  - openssl
+  - pyparsing
+  - pyqt
+  - qt
+  - sip
+  - tbb
+  - readline
+  - setuptools
+  - sqlite
+  - tk
+  - wheel
+  - xz
+  - zlib
+  - freeimageplus
+  - gl2ps
+  - oce
+  - pythonocc-core
+  - smesh
+  - pip:
+    - python-levenshtein
+    - crayons

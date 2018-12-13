@@ -1,0 +1,23 @@
+name: pfx
+channels:
+  - dlr-sc
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - pip
+  - ca-certificates
+  - certifi
+  - pyparsing
+  - readline
+  - setuptools
+  - sqlite
+  - wheel
+  - xz
+  - zlib
+  - sphinx
+  - sphinx_rtd_theme
+  - breathe
+  - pip:
+    - hidapi
+    - pfxbrick

@@ -6,7 +6,11 @@ channels:
 dependencies:
   - python=3.6
   - pandas
+  - numpy
   - scipy
+  - matplotlib
+  - bokeh
+  - toolz
   - ca-certificates
   - certifi
   - freetype

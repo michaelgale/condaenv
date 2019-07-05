@@ -42,10 +42,16 @@ $ source activate mynewenv
 
 ## Conda packages
 
-List all installed packages in the current active environment:
+List all packages in local conda installation:
 
 ```
 $ conda list
+```
+
+List all installed packages in a specific environment:
+
+```
+$ conda list -n myenv
 ```
 
 Install a new package to an environment:
